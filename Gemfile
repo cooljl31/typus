@@ -12,13 +12,13 @@ gem 'sass-rails', '~> 5.0.4'
 gem 'uglifier'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.1.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.5.3'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
@@ -50,8 +50,8 @@ gem 'carrierwave', '~> 0.10.0'
 
 # Testing stuff
 group :test do
-  gem 'minitest-rails-capybara' # makes capybara's DSL methods available in Rails minitests
-  gem 'poltergeist' # a headless browser (webkit) as capybara driver
+  gem 'minitest-rails-capybara' , '>= 2.1.1' # makes capybara's DSL methods available in Rails minitests
+  gem 'poltergeist' , '>= 1.9.0' # a headless browser (webkit) as capybara driver
 end
 
 gem 'puma'
