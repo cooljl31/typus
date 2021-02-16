@@ -43,7 +43,7 @@ gem 'devise', '~> 3.5.6'
 gem 'dragonfly', '~> 1.0.12'
 gem 'rack-cache', require: 'rack/cache'
 gem 'paperclip', '~> 4.3.6'
-gem 'carrierwave', '~> 0.10.0'
+gem 'carrierwave', '~> 1.3.2'
 
 # MongoDB
 # gem 'mongoid', github: 'mongoid/mongoid'
