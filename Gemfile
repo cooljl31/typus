@@ -40,7 +40,7 @@ gem 'ckeditor-rails', github: 'fesplugas/rails-ckeditor'
 gem 'devise', '~> 3.5.6'
 
 # Asset Management
-gem 'dragonfly', '~> 1.0.12'
+gem 'dragonfly', '~> 1.4.0'
 gem 'rack-cache', require: 'rack/cache'
 gem 'paperclip', '~> 4.3.6'
 gem 'carrierwave', '~> 0.10.0'
