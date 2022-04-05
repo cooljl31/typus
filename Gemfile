@@ -54,4 +54,4 @@ group :test do
   gem 'poltergeist' # a headless browser (webkit) as capybara driver
 end
 
-gem 'puma'
+gem 'puma', '>= 4.3.12'
