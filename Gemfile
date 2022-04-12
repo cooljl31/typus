@@ -12,7 +12,7 @@ gem 'sass-rails', '~> 5.0.4'
 gem 'uglifier'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
