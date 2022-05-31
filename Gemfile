@@ -6,13 +6,13 @@ source 'https://rubygems.org'
 gemspec
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.4'
+gem 'sass-rails', '~> 5.0.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -37,7 +37,7 @@ gem 'rails-trash', github: 'fesplugas/rails-trash'
 gem 'ckeditor-rails', github: 'fesplugas/rails-ckeditor'
 
 # Alternative authentication
-gem 'devise', '~> 3.5.6'
+gem 'devise', '~> 4.0.0'
 
 # Asset Management
 gem 'dragonfly', '~> 1.0.12'
@@ -50,7 +50,7 @@ gem 'carrierwave', '~> 0.10.0'
 
 # Testing stuff
 group :test do
-  gem 'minitest-rails-capybara' # makes capybara's DSL methods available in Rails minitests
+  gem 'minitest-rails-capybara' , '>= 3.0.0' # makes capybara's DSL methods available in Rails minitests
   gem 'poltergeist' # a headless browser (webkit) as capybara driver
 end
 
