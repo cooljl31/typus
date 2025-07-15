@@ -6,22 +6,22 @@ source 'https://rubygems.org'
 gemspec
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.4'
+gem 'sass-rails', '~> 6.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2.2'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.2.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.6.4'
 
 # Database Adapters
 gem 'pg', '~> 0.18.4'
@@ -29,7 +29,7 @@ gem 'pg', '~> 0.18.4'
 # Typus can manage lists, trees, trashes, so we want to enable this stuff
 # on the demo.
 gem 'acts_as_list', github: 'typus/acts_as_list'
-gem 'acts_as_tree'
+gem 'acts_as_tree', '>= 2.5.0'
 gem 'rails-permalink', '~> 1.0.0'
 gem 'rails-trash', github: 'fesplugas/rails-trash'
 
@@ -37,21 +37,21 @@ gem 'rails-trash', github: 'fesplugas/rails-trash'
 gem 'ckeditor-rails', github: 'fesplugas/rails-ckeditor'
 
 # Alternative authentication
-gem 'devise', '~> 3.5.6'
+gem 'devise', '~> 4.7.0'
 
 # Asset Management
-gem 'dragonfly', '~> 1.0.12'
-gem 'rack-cache', require: 'rack/cache'
-gem 'paperclip', '~> 4.3.6'
-gem 'carrierwave', '~> 0.10.0'
+gem 'dragonfly', '~> 1.1.0'
+gem 'rack-cache', '>= 1.7.0', require: 'rack/cache'
+gem 'paperclip', '~> 4.3.7'
+gem 'carrierwave', '~> 0.11.0'
 
 # MongoDB
 # gem 'mongoid', github: 'mongoid/mongoid'
 
 # Testing stuff
 group :test do
-  gem 'minitest-rails-capybara' # makes capybara's DSL methods available in Rails minitests
-  gem 'poltergeist' # a headless browser (webkit) as capybara driver
+  gem 'minitest-rails-capybara' , '>= 3.0.0' # makes capybara's DSL methods available in Rails minitests
+  gem 'poltergeist' , '>= 1.10.0' # a headless browser (webkit) as capybara driver
 end
 
 gem 'puma'
